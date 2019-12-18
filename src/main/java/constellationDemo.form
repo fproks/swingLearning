@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="constellationDemo">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="28" width="693" height="87"/>
+    </constraints>
+    <properties>
+      <background color="-10585211"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="80309" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints/>
+        <properties>
+          <autoscrolls value="true"/>
+          <columns value="20"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
