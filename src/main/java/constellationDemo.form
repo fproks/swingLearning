@@ -2,18 +2,52 @@
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="constellationDemo">
   <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
     <constraints>
-      <xy x="20" y="28" width="693" height="87"/>
+      <xy x="20" y="28" width="710" height="87"/>
     </constraints>
     <properties>
       <background color="-10585211"/>
     </properties>
     <border type="none"/>
     <children>
+      <component id="e99f0" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+        <constraints/>
+        <properties>
+          <minimumSize width="150" height="30"/>
+          <model>
+            <item value="巨蟹"/>
+            <item value="摩羯"/>
+            <item value="天蝎"/>
+          </model>
+          <preferredSize width="150" height="30"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="f1a90" class="javax.swing.JLabel" binding="label">
+        <constraints/>
+        <properties>
+          <text value="please input a xingzuo"/>
+        </properties>
+      </component>
       <component id="80309" class="javax.swing.JTextField" binding="textField1" default-binding="true">
         <constraints/>
         <properties>
           <autoscrolls value="true"/>
           <columns value="20"/>
+        </properties>
+      </component>
+      <component id="fff64" class="javax.swing.JButton" binding="ADDButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <enabled value="false"/>
+          <selected value="false"/>
+          <text value="ADD"/>
+        </properties>
+      </component>
+      <component id="6a983" class="javax.swing.JButton" binding="DELETEButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <enabled value="false"/>
+          <text value="DELETE"/>
         </properties>
       </component>
     </children>
